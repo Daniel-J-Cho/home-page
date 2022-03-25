@@ -2,23 +2,25 @@
   font-family: sans-serif;
 }
 
-.container-header {
-  max-width: 1000px;
-  display: flex;
-  justify-content: center;
-}
+/* .container-header {
+
+} */
 
 .row {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .column-twenty-percent.chegg {
   display: flex;
+  flex-direction: row;
 }
 
 .column-sixty-percent {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .chegg {
@@ -30,7 +32,8 @@
 }
 
 .options-row {
-
+  display: flex;
+  flex-direction: row;
 }
 
 .vl {
@@ -52,4 +55,13 @@ button {
 
 .bar {
   border: 2px solid #f3d995;
+}
+
+.column-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.ed {
+  padding: 0 40px;
 }
