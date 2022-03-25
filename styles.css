@@ -3,8 +3,16 @@
 }
 
 .container-header {
+  max-width: 800px;
+}
+
+.row {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+}
+
+.column-twenty-percent.chegg {
+  flex-basis: 20%;
 }
 
 .chegg {
@@ -16,6 +24,10 @@
 }
 
 .options-row {
-  display: flex;
-  flex-direction: column;
+
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 300px;
 }
