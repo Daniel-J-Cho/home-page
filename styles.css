@@ -3,7 +3,9 @@
 }
 
 .container-header {
-  max-width: 800px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
 }
 
 .row {
@@ -12,11 +14,15 @@
 }
 
 .column-twenty-percent.chegg {
-  flex-basis: 20%;
+  display: flex;
+}
+
+.column-sixty-percent {
+  display: flex;
 }
 
 .chegg {
-  color: orange;
+  color: #f4ad62;
 }
 
 .nav {
@@ -28,6 +34,22 @@
 }
 
 .vl {
-  border-left: 6px solid green;
-  height: 300px;
+  border-left: 2px solid black;
+  height: 20px;
+}
+
+button {
+  background-color: #eb7101;
+  border: none;
+  border-radius: 2px;
+  padding: 4px 8px;
+  color: white;
+}
+
+.study {
+  border: none;
+}
+
+.bar {
+  border: 2px solid #f3d995;
 }
