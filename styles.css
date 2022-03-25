@@ -65,3 +65,42 @@ button {
 .ed {
   padding: 0 40px;
 }
+
+.back-img {
+  background-image: url("images/hero-image.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.back-img-p1 {
+  color: white;
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  right: 250px;
+}
+
+.back-img-h2 {
+  color: white;
+  position: absolute;
+  top: 150px;
+  left: 90px;
+  right: 250px;
+}
+
+.back-img-p2 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 90px;
+  right: 250px;
+}
+
+.get-started-button {
+  position: absolute;
+  top: 150px;
+  left: 45px;
+  border-radius: 10px;
+}
