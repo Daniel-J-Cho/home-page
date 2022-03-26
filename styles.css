@@ -54,7 +54,9 @@ button {
 }
 
 .bar {
-  border: 2px solid #f3d995;
+  border: 3px solid #f3d995;
+  width: 400px;
+  height: 20px;
 }
 
 .column-header-right {
@@ -103,4 +105,12 @@ button {
   top: 150px;
   left: 45px;
   border-radius: 10px;
+  width: 80px;
+  height: 40px;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
